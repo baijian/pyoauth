@@ -1,0 +1,12 @@
+
+*.py[cod]
+
+*.egg
+*.egg-info
+
+# bootstrap.py
+.bootstrap/
+.virtualenv/
+script/bootstrap.py
+
+*.png
