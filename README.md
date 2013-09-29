@@ -19,3 +19,12 @@ With the access token(along with its expiry time) you can get the data you want.
 
 The `Implicit` grant type is similar with `Authorization Code` grant type, the difference is that OAuth
 Server will return the access token directly when you login then OAuth Server successfully.
+
+## Resource Owner Password Flow
+
+Username and password are used directly as an authorization grant to obtain an access token.
+
+## Client Credentials Flow
+
+There is no redirect to the server, a POST request is done diretcly to the oauth2 server with
+the client credentials, an access token is received.
